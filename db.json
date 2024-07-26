@@ -1,0 +1,292 @@
+{
+  "students": [
+    {
+      "name": "Lalit",
+      "age": 15,
+      "grade": "B",
+      "class": "9th",
+      "rollno": "4",
+      "fatherName": "Kamlesh Kumar",
+      "motherName": "PremLate",
+      "status": "present",
+      "gender": "male",
+      "attendance": [
+        {
+          "date": "2024-07-22",
+          "status": "present"
+        },
+        {
+          "date": "2024-07-23",
+          "status": "absent"
+        },
+        {
+          "date": "2024-07-24",
+          "status": "present"
+        }
+      ],
+      "result": [
+        {
+          "Subject": "English",
+          "Marks": 70
+        },
+        {
+          "Subject": "Hindi",
+          "Marks": 72
+        },
+        {
+          "Subject": "Maths",
+          "Marks": 71
+        },
+        {
+          "Subject": "Science",
+          "Marks": 60
+        },
+        {
+          "Subject": "History",
+          "Marks": 80
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "anjali",
+      "age": "13",
+      "grade": "A",
+      "class": "6th",
+      "rollno": "16",
+      "fatherName": "Rajnesh kumar",
+      "motherName": "Arti",
+      "status": "present",
+      "gender": "female",
+      "attendance": [
+        {
+          "date": "2024-07-22",
+          "status": "present"
+        },
+        {
+          "date": "2024-07-23",
+          "status": "absent"
+        },
+        {
+          "date": "2024-07-24",
+          "status": "present"
+        }
+      ],
+      "result": [
+        {
+          "Subject": "English",
+          "Marks": 70
+        },
+        {
+          "Subject": "Hindi",
+          "Marks": 72
+        },
+        {
+          "Subject": "Maths",
+          "Marks": 71
+        },
+        {
+          "Subject": "Science",
+          "Marks": 60
+        },
+        {
+          "Subject": "History",
+          "Marks": 80
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Vivek",
+      "age": 8,
+      "grade": "A",
+      "class": "5th",
+      "rollno": 9,
+      "fatherName": "R kumar",
+      "motherName": "Arti",
+      "status": "present",
+      "gender": "male",
+      "attendance": [
+        {
+          "date": "2024-07-22",
+          "status": "present"
+        },
+        {
+          "date": "2024-07-23",
+          "status": "absent"
+        },
+        {
+          "date": "2024-07-24",
+          "status": "present"
+        }
+      ],
+      "result": [
+        {
+          "Subject": "English",
+          "Marks": 70
+        },
+        {
+          "Subject": "Hindi",
+          "Marks": 72
+        },
+        {
+          "Subject": "Maths",
+          "Marks": 71
+        },
+        {
+          "Subject": "Science",
+          "Marks": 60
+        },
+        {
+          "Subject": "History",
+          "Marks": 80
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Deepti",
+      "age": 15,
+      "grade": "A",
+      "class": "8th",
+      "rollno": 14,
+      "fatherName": "Kamlesh kumar",
+      "motherName": "Premlate",
+      "status": "present",
+      "gender": "female",
+      "attendance": [
+        {
+          "date": "2024-07-22",
+          "status": "present"
+        },
+        {
+          "date": "2024-07-23",
+          "status": "absent"
+        },
+        {
+          "date": "2024-07-24",
+          "status": "present"
+        }
+      ],
+      "result": [
+        {
+          "Subject": "English",
+          "Marks": 70
+        },
+        {
+          "Subject": "Hindi",
+          "Marks": 72
+        },
+        {
+          "Subject": "Maths",
+          "Marks": 71
+        },
+        {
+          "Subject": "Science",
+          "Marks": 60
+        },
+        {
+          "Subject": "History",
+          "Marks": 80
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "prem",
+      "age": 12,
+      "grade": "C",
+      "class": "6th",
+      "rollno": 22,
+      "fatherName": "kk",
+      "motherName": "hemlate",
+      "status": "present",
+      "gender": "male",
+      "attendance": [
+        {
+          "date": "2024-07-22",
+          "status": "present"
+        },
+        {
+          "date": "2024-07-23",
+          "status": "absent"
+        },
+        {
+          "date": "2024-07-24",
+          "status": "present"
+        }
+      ],
+      "result": [
+        {
+          "Subject": "English",
+          "Marks": 70
+        },
+        {
+          "Subject": "Hindi",
+          "Marks": 72
+        },
+        {
+          "Subject": "Maths",
+          "Marks": 71
+        },
+        {
+          "Subject": "Science",
+          "Marks": 60
+        },
+        {
+          "Subject": "History",
+          "Marks": 80
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "ram",
+      "age": 5,
+      "grade": "A",
+      "class": "1st",
+      "rollno": 17,
+      "fatherName": "dev kumar",
+      "motherName": "meera",
+      "status": "present",
+      "gender": "male",
+      "attendance": [
+        {
+          "date": "2024-07-22",
+          "status": "present"
+        },
+        {
+          "date": "2024-07-23",
+          "status": "absent"
+        },
+        {
+          "date": "2024-07-24",
+          "status": "present"
+        }
+      ],
+      "result": [
+        {
+          "Subject": "English",
+          "Marks": 70
+        },
+        {
+          "Subject": "Hindi",
+          "Marks": 72
+        },
+        {
+          "Subject": "Maths",
+          "Marks": 71
+        },
+        {
+          "Subject": "Science",
+          "Marks": 60
+        },
+        {
+          "Subject": "History",
+          "Marks": 80
+        }
+      ],
+      "id": 7
+    }
+  ]
+}

@@ -1,38 +1,200 @@
-.App {
+/* sideBar page styling */
+
+.sidebarDiv>ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebarDiv>ul>li {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #bbb;
+  cursor: pointer;
+}
+
+.sidebarDiv>ul>li>.navlink {
+  color: #fff;
+}
+
+
+/* student page Styling */
+
+.mainDivStudentPro {
+  display: flex;
+}
+
+.mainDivStudentPro td {
+  padding: 8px;
+  border: 1px solid black;
+  font-weight: 700;
+}
+
+/* All Student Page Styling */
+
+.AllStudentsDiv {
+  width: 70%;
+  margin: auto;
+}
+
+.filterDiv {
+  margin: 10px 0px;
+}
+
+.filterDiv>select {
+  width: 100px;
+  margin-left: 5px;
+}
+
+.editDiv {
+  margin-bottom: 20px;
+}
+
+.editDiv>form {
+  width: 50%;
+  border: 2px solid gray;
+  padding: 10px;
+  margin: auto;
+
+}
+
+.inputDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.inputDiv>input {
+  width: 50%;
+  padding: 10px;
+}
+
+.tableDiv>thead>tr>th {
+  padding: 5px 10px 5px 10px;
+  min-width: 7%;
+  border: 1px solid gray;
+  font-weight: 1000;
+}
+
+.tableDiv>tbody>tr>td {
+  padding: 5px 10px 5px 10px;
+  font-weight: 600;
+  border: 1px solid gray;
+  color: gray;
+}
+
+.buttonDiv {
+  padding: 5px 10px 5px 10px;
+  font-weight: 600;
+  border: 1px solid gray;
+  color: black;
+  display: flex;
+}
+
+.buttonDiv>div {
+  cursor: pointer;
+}
+
+
+/* Dashboard Page Styling */
+
+.dashboardDiv {
+  text-align: center;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 20px;
+}
+
+.dashboardDiv>.Div1 {
+  border: 2px solid gray;
+  width: 100%;
+  background-color: skyblue;
+  border-radius: 10px;
+}
+
+.dashboardDiv>.Div2 {
+  border: 2px solid gray;
+  width: 100%;
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+.dashboardDiv>.Div3 {
+  border: 2px solid gray;
+  width: 100%;
+  background-color: pink;
+  border-radius: 10px;
+}
+
+
+.formDiv {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formDiv>form {
+  border: 2px solid gray;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.formDiv>form>div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.formDiv>form>div>input,
+select {
+  width: 50%;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addStudentBtn {
+  width: 50%;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+/* App.js page styling */
+
+.mainAppDiv{
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+    padding: 15px;
+}
+
+.sidebarComp{
+  width: 15%;
+  height:100% ;
+  position: fixed;
+  top: 40;
+  left: 0;
+  background-color: #111;
+  color: #fff;
+  
+}
+
+.RouteDiv{
+  width: 80%;
+  margin-left: 15%;
+  padding: 20px;
+}
+
+.bodyComponent{
+  display: flex;
+  width: 100%;
 }
